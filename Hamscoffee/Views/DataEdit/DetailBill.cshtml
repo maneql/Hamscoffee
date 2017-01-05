@@ -1,0 +1,217 @@
+﻿
+@{
+    ViewBag.Title = "DetailBill";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div id="page-wrapper">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">Chi tiết hóa đơn số: @ViewBag.bill[0].Bill_ID</h1>
+        </div>
+        <!-- /.col-lg-12 -->
+    </div>
+    <!-- /.row -->
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    Thông tin hóa đơn
+                </div>
+
+                <!-- /.panel-heading -->
+                <div class="panel-body">
+
+                    <table width="100%" class="table table">
+
+                        <thead>
+
+                            <tr>
+                                <th>Mã hóa đơn</th>
+                                <th>Ngày lập hóa đơn</th>
+                                <th>Tổng tiền</th>
+                                <th>Tên Khách hàng</th>
+                                <th>Tác vụ</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr class="success">
+                                <td>@ViewBag.bill[0].Bill_ID</td>
+                                <td>@ViewBag.bill[0].Date</td>
+                                <td>@ViewBag.bill[0].Total</td>
+                                <td>@ViewBag.bill[0].Customer_Name</td>
+                                <td><a href="@Url.Action("Bill", "DataEdit")">Trở về</a> | <a href="@Url.Action("DeleteBill", "DataEdit", new { id = @ViewBag.bill[0].Bill_ID })">Xóa hóa đơn</a></td>
+                            </tr>     
+                        </tbody>
+                    </table>
+
+                    <!-- /.table-responsive -->
+                </div>
+                <!-- /.panel-body -->
+            </div>
+            <!-- /.panel -->
+        </div>
+        <!-- /.col-lg-12 -->
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    Chi tiết
+                </div>
+
+                <!-- /.panel-heading -->
+                <div class="panel-body">
+
+                    <table width="100%" class="table table-striped table-bordered table-hover" id="dataTables-example">
+
+                        <thead>
+
+                            <tr>
+                                <th>Tên Sản phẩm</th>
+                                <th>Số lượng</th>
+                                <th>Thành tiền</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+
+                            @foreach (var p in @ViewBag.detail)
+                            {
+                                <tr>
+                                    <td>@p.Product_Name</td>
+                                    <td>@p.Quantity</td>
+                                    <td>@p.Total_Detail</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+
+                    <!-- /.table-responsive -->
+                </div>
+                <!-- /.panel-body -->
+            </div>
+            <!-- /.panel -->
+        </div>
+        <!-- /.col-lg-12 -->
+    </div>
+    <!-- /.row -->
+    @*<div class="row">
+        <div class="col-lg-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    Hover Rows
+                </div>
+                <!-- /.panel-heading -->
+                <div class="panel-body">
+                    <div class="table-responsive">
+                        <table class="table table">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>First Name</th>
+                                    <th>Last Name</th>
+                                    <th>Username</th>
+                                    <th>Task</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>mdo</td>
+                                    <td><a href="#">Sửa</a>|<a href="#">Xóa</a></td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Jacob</td>
+                                    <td>Thornton</td>
+                                    <td>fat</td>
+                                    <td><a href="#">Sửa</a>|<a href="#">Xóa</a></td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Larry</td>
+                                    <td>the Bird</td>
+                                    <td>twitter</td>
+                                    <td><a href="#">Sửa</a>|<a href="#">Xóa</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.table-responsive -->
+                </div>
+                <!-- /.panel-body -->
+            </div>
+            <!-- /.panel -->
+        </div>
+        <!-- /.col-lg-6 -->
+        <div class="col-lg-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    Context Classes
+                </div>
+                <!-- /.panel-heading -->
+                <div class="panel-body">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>First Name</th>
+                                    <th>Last Name</th>
+                                    <th>Username</th>
+                                    <th>Task</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="success">
+                                    <td>1</td>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>mdo</td>
+                                    <td><a href="#">Sửa</a>|<a href="#">Xóa</a></td>
+                                </tr>
+                                <tr class="info">
+                                    <td>2</td>
+                                    <td>Jacob</td>
+                                    <td>Thornton</td>
+                                    <td>fat</td>
+                                    <td><a href="#">Sửa</a>|<a href="#">Xóa</a></td>
+                                </tr>
+                                <tr class="warning">
+                                    <td>3</td>
+                                    <td>Larry</td>
+                                    <td>the Bird</td>
+                                    <td>twitter</td>
+                                    <td><a href="#">Sửa</a>|<a href="#">Xóa</a></td>
+                                </tr>
+                                <tr class="danger">
+                                    <td>4</td>
+                                    <td>John</td>
+                                    <td>Smith</td>
+                                    <td>jsmith</td>
+                                    <td><a href="#">Sửa</a>|<a href="#">Xóa</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.table-responsive -->
+                </div>
+                <!-- /.panel-body -->
+            </div>
+            <!-- /.panel -->
+        </div>
+        <!-- /.col-lg-6 -->
+    </div>*@
+    <!-- /.row -->
+</div>
+
+
+
+
+
+

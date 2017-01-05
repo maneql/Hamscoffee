@@ -1,0 +1,78 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layoutcustome.cshtml";
+}
+
+
+<div class="container" style="background-color:white;">
+    <div class="row col-lg-12">
+        <div class="col-lg-4">
+            <div class="brands-name text-center">
+                <img src="" alt="Image" />
+                <h3>tên tài khoản</h3>
+                <ul class="nav nav-pills nav-stacked text-center">
+                    <li><button class="btn btn-default" style="width:100%;">Thông tin</button></li>
+                    <li><button class="btn btn-default" style="width:100%;">Tài khoản</button></li>
+                    <li><button class="btn btn-default" style="width:100%;">Đổi mật khẩu</button></li>
+                </ul>
+            </div>
+        </div>
+            <div class="col-lg-8">
+             
+                    <form action="#" method="post" id="thongtin">
+                        <button type="submit" class="btn btn-default">Edit</button>
+                        <div class="block">    
+                            <p>ID: </p><input type="text" value='' name="ID" required />
+                        </div>
+                        <div class="block">
+                            <p>Họ Tên: </p><input type="text" value='' name="ten" required />
+                        </div>
+                        <div class="block">
+                            <p>Email: </p><input type="email" value='' name="email" required />
+                        </div>
+                        <div class="block">
+                            <p>Phone: </p><input type="text" required pattern="[0-9][9-0]" maxlength="15" name="phone" />
+                        </div>
+                        <div class="block">
+                            <p>Địa chỉ:</p><input type="text" required value='' name="address" />
+                        </div>
+                        <div class="block">
+                            @if (@ViewData["sex"] != null)
+                            {
+
+                                if (Equals(@ViewData["sex"], "Nam"))
+                                {
+                                    <div class="col-lg-3">
+                                        <input type="radio" name="sex" value="Nam" form="formSignup" checked required /> Nam
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <input type="radio" name="sex" value="Nữ" form="formSignup" /> Nữ
+                                    </div>
+                                }
+                                else
+                                {
+                                    <div class="col-lg-3">
+                                        <input type="radio" name="sex" value="Nam" form="formSignup" required /> Nam
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <input type="radio" name="sex" value="Nữ" checked form="formSignup" /> Nữ
+                                    </div>
+                                }
+                            }
+                            else
+                            {
+                                <div class="col-lg-3">
+                                    <input type="radio" name="sex" value="Nam" form="formSignup" required /> Nam
+                                </div>
+                                    <div class="col-lg-3">
+                                        <input type="radio" name="sex" value="Nữ" form="formSignup" /> Nữ
+                                    </div>
+                            }
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+

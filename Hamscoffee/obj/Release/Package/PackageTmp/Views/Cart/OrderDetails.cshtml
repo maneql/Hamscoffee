@@ -1,0 +1,104 @@
+﻿@using Hamscoffee.Models
+@model List<cart>
+@{
+    ViewBag.Title = "Order";
+    Layout = "~/Views/Shared/_Layoutuser.cshtml";
+}
+
+<div class="container" style="padding: 0px;">
+    <section id="cart_items" style="background-color:white;">
+        <div class="container">
+            <div class="breadcrumbs">
+                <ol class="breadcrumb">
+                    <li><a href="#">Home</a></li>
+                    <li class="active">Shopping Cart</li>
+                </ol>
+            </div>
+            <div class="table-responsive cart_info">
+                <table class="table table-condensed">
+                    <thead>
+                        <tr class="cart_menu">
+                            <td class="image">Sản phẩm</td>
+                            <td class="description"></td>
+                            <td class="price">Đơn giá</td>
+                            <td class="quantity">Số lượng</td>
+                            <td class="total">Thành tiền</td>
+                        </tr>
+                    </thead>
+                    <tbody style="background-color:white;">
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td class="cart_product">
+                                    <a href="@Url.Action("ProductDetails", "ProductDetails", new { id = @item.sProductID })"><img src="@item.sURLImage" alt=""></a>
+                                </td>
+                                <td class="cart_description">
+                                    <h4><a href="@Url.Action("ProductDetails", "ProductDetails", new { id = @item.sProductID })">@item.sProductName</a></h4>
+                                    <p>ID: @item.sProductID</p>
+                                </td>
+                                <td class="cart_price">
+                                    <p>@item.dCost</p>
+                                </td>
+                                <td class="cart_quantity">
+                                    <p>@item.iQuantity</p>
+                                </td>
+                                <td class="cart_total">
+                                    <p class="cart_total_price">@item.dTotal</p>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section> <!--/#cart_items-->
+
+    <section id="do_action" style="background-color:white;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="total_area">
+                        <ul>
+                            <li>Giá trị giỏ hàng <span>@ViewBag.Total</span></li>
+                            <li>Thuế <span>0</span></li>
+                            <li>Phí Shipping<span>Free</span></li>
+                            <li>Total <span>@ViewBag.Total</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="chose_area">
+                        <ul class="user_option">
+                            <li>
+                                <span>Tên khách hàng: @ViewBag.name</span>
+                            </li>
+
+                            <li>
+                                <span>Địa chỉ: @ViewBag.address</span>
+
+                            </li>
+
+                            <li>
+                                <span>Điện thoại: @ViewBag.phone</span>
+
+                            </li>
+
+                            <li>
+                                <span>Mail: @ViewBag.mail</span>
+
+                            </li>
+                            <li>
+                                <span>Ngày đặt hàng: @DateTime.Now.ToShortDateString()</span>
+                            </li>
+                        </ul>
+                        <a class="btn btn-default update" href="@Url.Action("thanhtoan","Cart")">THANH TOÁN</a>
+                        <!--<a class="btn btn-default check_out" href="">Continue</a>-->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section><!--/#do_action-->
+</div>
+
+

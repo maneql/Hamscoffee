@@ -1,0 +1,41 @@
+﻿@{
+    ViewBag.Title = "Admin_Login";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="~/Content/mainlogin.css" rel="stylesheet" />
+    
+</head>
+<body>
+    <div class="container">
+
+        <div class="row" id="pwd-container">
+            <div class="col-md-4"></div>
+
+            <div class="col-md-4">
+                <section class="login-form">
+                    <form method="post" action="login" role="login">
+                        <img src="~/img/Admin.png" class="img-responsive" alt="" />
+                        <input type="text" name="AdminID" placeholder="ID" required class="form-control input-lg" />
+
+                        <input type="password" class="form-control input-lg" id="password" placeholder="Password" required="" name="pass"/>
+
+
+                        <div class="pwstrength_viewport_progress"></div>
+
+                        <span class="alert-danger">@ViewBag.khongthanhcong</span>
+                        <button type="submit" name="go" class="btn btn-lg btn-primary btn-block">Sign in</button>
+                        
+
+                    </form>
+
+                </section>
+            </div>
+
+            <div class="col-md-4"></div>
+        </div>
+        </div>
+    <script src="~/js/mainlogin.js"></script>
+</body>
+</html>

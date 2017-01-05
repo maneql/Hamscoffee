@@ -1,0 +1,29 @@
+﻿@model List<string>
+
+@{
+    var images = Model ?? new List<string>();
+}
+<div id="images-box" class="row">
+    <div class="col-lg-12">
+        <input type="file" name="files" id="files" multiple>
+        <button type="button" id="btn-upload-image" class="btn btn-default">Upload</button>
+    </div>
+</div>
+
+@if (images.Count > 0)
+{
+    <div class="block">
+
+        @foreach (var image in images)
+        {
+            <img src="@image" alt="Image" />
+            <input type="hidden" name="images" value="@image" />
+        }
+
+    </div>
+}
+
+
+
+
+

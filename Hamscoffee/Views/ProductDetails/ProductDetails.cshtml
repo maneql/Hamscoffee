@@ -1,0 +1,159 @@
+﻿
+@{
+    ViewBag.Title = "ProductDetails";
+    Layout = "~/Views/Shared/_Layoutuser.cshtml";
+}
+<div class="container" style="padding: 0px;">
+    <section style="background-color: white;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="left-sidebar">
+                        <h2>DANH MỤC</h2>
+                        <div class="panel-group category-products" id="accordian">
+                            <!--category-productsr-->
+                            <div class="brands-name">
+                                <ul class="nav nav-pills nav-stacked">
+                                    @foreach (var ca in @ViewBag.catagory)
+                                    {
+                                        <li><a href="@Url.Action("Index", "ProductIndex", new { id = @ca.Catagory_ID })"> <span class="pull-right"></span>@ca.Catagory_Name</a></li>
+                                    }
+                                </ul>
+                            </div>
+                        </div><!--/category-products-->
+                        <div class="brands_products">
+                            <!--brands_products-->
+                            <h2>NHÀ CUNG CẤP</h2>
+                            <div class="brands-name">
+                                <ul class="nav nav-pills nav-stacked">
+                                    @foreach (var pr in @ViewBag.provider)
+                                    {
+                                        <li><a href="@Url.Action("Index", "ProductIndex", new { id = @Session["id"], pid = @pr.Provider_ID })"> <span class="pull-right"></span>@pr.Provider_Name</a></li>
+                                    }
+                                </ul>
+                            </div>
+                        </div><!--/brands_products-->
+                        <div class="price-range">
+                            <!--price-range-->
+                            <h2>MỨC GIÁ</h2>
+                            <div class="well text-center">
+                                <input type="text" class="span2" value="" data-slider-min="0" data-slider-max="500000" data-slider-step="5" data-slider-value="[250,450]" id="sl2"><br />
+                                <b class="pull-left">0 VND</b> <b class="pull-right">500k VND</b>
+                            </div>
+                        </div><!--/price-range-->
+                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fhamscofeepage%2F&tabs=timeline&width=300&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
+                    </div>
+                </div>
+                <div class="col-sm-9 padding-right">
+                    <div class="product-details">
+                        <!--product-details-->
+                        <div class="col-sm-5">
+                            <div class="view-product">
+                                <img src="@ViewBag.prodc[0].url" alt="" />
+                                <h3>ZOOM</h3>
+                            </div>
+                            <div id="similar-product" class="carousel slide" data-ride="carousel">
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        @foreach (var it in @ViewBag.prodc)
+                                        { 
+                                        <a href=""><img src="@it.url" alt="" width="85" height="85"></a>
+                                        }
+                                    </div>
+                                    <div class="item">
+                                       @foreach (var it in @ViewBag.prodc)
+                                       {
+                                        <a href=""><img src="@it.url" alt="" width="85" height="85"></a>
+                                       }
+                                    </div>
+                                    <div class="item">
+                                        @foreach (var it in @ViewBag.prodc)
+                                        {
+                                            <a href=""><img src="@it.url" alt="" width="85" height="85"></a>
+                                        }
+                                    </div>
+
+                                </div>
+
+                                <!-- Controls -->
+                                <a class="left item-control" href="#similar-product" data-slide="prev">
+                                    <i class="fa fa-angle-left"></i>
+                                </a>
+                                <a class="right item-control" href="#similar-product" data-slide="next">
+                                    <i class="fa fa-angle-right"></i>
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="product-information">
+                                <!--/product-information-->
+                                <img src="~/images/product-details/new.jpg" class="newarrival" alt="" />
+                                <h2>@ViewBag.prodc[0].product_name</h2>
+                                <img src="~/images/product-details/rating.png" alt="" />
+                                <span >
+                                    <span>@ViewBag.prodc[0].cost</span>
+                                    <label>Quantity:</label>
+                                    <input type="text" value="1" />
+                                    <a href="@Url.Action("AddCart", "Cart", new { id = @ViewBag.prodc[0].product_id, @strURL = Url.Action("Cart", "Cart", null, Request.Url.Scheme) }, null)">
+                                        <button type="button" class="btn btn-fefault cart">
+                                            <i class="fa fa-shopping-cart"></i>
+                                            MUA NGAY
+                                        </button>
+                                    </a>
+                                   
+                                </span>
+                                @if(@ViewBag.prodc[0].quantity >= 1){
+                                    <p><b>Availability:</b> In Stock</p>
+                                }
+                                else{
+                                <p><b>Availability:</b> Not In Stock</p>
+                                }
+                                <p><b>Condition:</b> New</p>
+                                <p><b>Brand:</b> @ViewBag.prodc[0].provider_name</p>
+                                <a href=""><img src="~/images/product-details/share.png" class="share img-responsive" alt="" /></a>
+                            </div><!--/product-information-->
+                        </div>
+                    </div><!--/product-details-->
+
+                    <div class="category-tab shop-details-tab">
+                        <!--category-tab-->
+                        <div class="col-sm-12">
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a href="#reviews" data-toggle="tab">Reviews</a></li>
+                            </ul>
+                        </div>
+                        <div class="tab-content">
+                            <div class="tab-pane fade active in" id="reviews" >
+
+                                <div class="col-sm-12">
+                                    <ul>
+                                        <li><a href=""><i class="fa fa-user"></i>EUGEN</a></li>
+                                        <li><a href=""><i class="fa fa-clock-o"></i>12:41 PM</a></li>
+                                        <li><a href=""><i class="fa fa-calendar-o"></i>31 DEC 2014</a></li>
+                                    </ul>
+                                    <p><b>@ViewBag.prodc[0].title</b></p>
+                                    <br />
+                                    <p>@ViewBag.prodc[0].description</p>
+                                    <p><b>Write Your Review</b></p>
+
+                                    <form action="#">
+                                        <b>Rating: </b> <img src="~/images/product-details/rating.png" alt="" />
+                                    </form>
+                                </div>
+                                </div>
+                        </div>
+                    @{ 
+                        string url = "http://localhost:60373/ProductDetails/ProductDetails/" + @ViewBag.prodc[0].product_id;
+                    }
+                        <div class="fb-comments" data-href="@url" data-colorscheme="light" data-numposts="5" data-width="830"></div>
+                    </div><!--/category-tab-->
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

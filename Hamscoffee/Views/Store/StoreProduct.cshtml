@@ -1,0 +1,98 @@
+﻿
+@using Hamscoffee.Models
+@using PagedList.Mvc;
+@model PagedList.PagedList<Hamscoffee.Controllers.StoreController.datatable>
+
+@{
+    ViewBag.Title = "StoreProduct";
+    Layout = "~/Views/Shared/_Layoutuser.cshtml";
+}
+
+<div class="container" style="padding: 0px;">
+    <section style="background-color: white;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="left-sidebar">
+                        <h2>DANH MỤC</h2>
+                        <div class="panel-group category-products" id="accordian">
+                            <!--category-productsr-->
+                            <div class="brands-name">
+                                <ul class="nav nav-pills nav-stacked">
+                                    @foreach (var ca in @ViewBag.catagory)
+                                    {
+
+                                        <li><a href="@Url.Action("StoreProduct", "Store", new { id = @ca.Catagory_ID })"> <span class="pull-right"></span>@ca.Catagory_Name</a></li>
+
+                                    }
+                                </ul>
+                            </div>
+                        </div><!--/category-products-->
+
+                        <div class="brands_products">
+                            <!--brands_products-->
+                            <h2>NHÀ CUNG CẤP</h2>
+                            <div class="brands-name">
+                                <ul class="nav nav-pills nav-stacked">
+                                    @foreach (var pr in @ViewBag.provider)
+                                    {
+                                        <li><a href="@Url.Action("StoreProduct", "Store", new { id = @Session["id"], pid = @pr.Provider_ID })"> <span class="pull-right"></span>@pr.Provider_Name</a></li>
+                                    }
+                                </ul>
+                            </div>
+                        </div><!--/brands_products-->
+                        @*<div class="price-range">
+                            <!--price-range-->
+                            <h2>MỨC GIÁ</h2>
+                            <div class="well text-center">
+                                <input type="text" class="span2" value="" data-slider-min="0" data-slider-max="600" data-slider-step="5" data-slider-value="[250,450]" id="sl2"><br />
+                                <b class="pull-left">$ 0</b> <b class="pull-right">$ 600</b>
+                            </div>
+                        </div><!--/price-range-->*@
+                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fhamscofeepage%2F&tabs=timeline&width=300&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="110%" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                    </div>
+                </div>
+                <div class="col-sm-9 padding-right">
+                    <div class="col-sm-12">
+                        <!--features_items-->
+                        <h2 class="title text-center">Features Items</h2>
+                        @foreach (var tt in Model)
+                        {
+                            <div class="col-sm-4">
+                                <div class="product-image-wrapper">
+                                    <div class="single-products">
+                                        <div class="productinfo text-center">
+                                            <img src="@tt.url" alt="@tt.product_name" />
+                                            <h2>@tt.cost</h2>
+                                            <p>@tt.product_name</p>
+                                            <a href="@Url.Action("AddCart", "Cart", new { id = @tt.product_id, @strURL = Request.Url.ToString()}, null)" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
+                                        </div>
+                                    </div>
+                                    <div class="choose">
+                                        <ul class="nav nav-pills nav-justified">
+                                            <li>@Html.ActionLink("View Details", "ProductDetails", "ProductDetails", new { id = tt.product_id }, null)</li>
+                                            <li><a href=""><i class="fa fa-plus-square"></i>Add to compare</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                        
+                    </div><!--features_items-->
+                    @* Tao liên kết các trang  *@
+                    Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)/@Model.PageCount
+                    <div class="MenuTrang">
+                        @Html.PagedListPager(Model, page => Url.Action("StoreProduct", new { page = page }))
+                    </div>
+                    <div class="fb-comments" data-href="http://localhost:60373/ProductIndex/Index" data-colorscheme="light" data-numposts="5" data-width="830"></div>
+
+                    <style>
+                        .MenuTrang li {
+                            display: inline;
+                        }
+                    </style>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

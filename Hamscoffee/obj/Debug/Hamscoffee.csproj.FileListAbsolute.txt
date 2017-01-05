@@ -1,0 +1,767 @@
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\ApplicationInsights.config
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\roslyn\csc.exe
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\roslyn\System.Collections.Immutable.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\roslyn\vbc.exe
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\roslyn\VBCSCompiler.exe
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\roslyn\VBCSCompiler.exe.config
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Hamscoffee.dll.config
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Hamscoffee.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Hamscoffee.pdb
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Antlr3.Runtime.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\EntityFramework.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\EntityFramework.SqlServer.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Microsoft.AI.Web.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Microsoft.AI.WindowsServer.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Microsoft.ApplicationInsights.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Google.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Microsoft.Web.Infrastructure.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Newtonsoft.Json.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Owin.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\System.Web.Helpers.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\System.Web.Mvc.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\System.Web.Optimization.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\System.Web.Razor.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.Deployment.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.Razor.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\WebGrease.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Microsoft.AI.Web.xml
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Microsoft.AI.WindowsServer.xml
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Microsoft.ApplicationInsights.xml
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\System.Web.Helpers.xml
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\System.Web.Mvc.xml
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\System.Web.Optimization.xml
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\System.Web.Razor.xml
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.xml
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.Deployment.xml
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.Razor.xml
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Antlr3.Runtime.pdb
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Newtonsoft.Json.xml
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\EntityFramework.xml
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\EntityFramework.SqlServer.xml
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.xml
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.xml
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Google.xml
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\obj\Debug\Hamscoffee.csprojResolveAssemblyReference.cache
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\obj\Debug\Hamscoffee.dll
+c:\users\hao\documents\visual studio 2015\Projects\Hamscoffee\Hamscoffee\obj\Debug\Hamscoffee.pdb
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\ApplicationInsights.config
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\roslyn\csc.exe
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\roslyn\vbc.exe
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\roslyn\VBCSCompiler.exe
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Hamscoffee.dll.config
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Hamscoffee.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Hamscoffee.pdb
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Antlr3.Runtime.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\EntityFramework.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\EntityFramework.SqlServer.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.AI.Web.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Newtonsoft.Json.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Owin.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\System.Web.Helpers.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\System.Web.Mvc.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\System.Web.Optimization.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\System.Web.Razor.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.Razor.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\WebGrease.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.AI.Web.xml
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\System.Web.Helpers.xml
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\System.Web.Mvc.xml
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\System.Web.Optimization.xml
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\System.Web.Razor.xml
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.xml
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.Razor.xml
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Antlr3.Runtime.pdb
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Newtonsoft.Json.xml
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\EntityFramework.xml
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\EntityFramework.SqlServer.xml
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.xml
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.xml
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\obj\Debug\Hamscoffee.csprojResolveAssemblyReference.cache
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\obj\Debug\Hamscoffee.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\obj\Debug\Hamscoffee.pdb
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\ApplicationInsights.config
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\csc.exe
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\vbc.exe
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\VBCSCompiler.exe
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Hamscoffee.dll.config
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Hamscoffee.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Hamscoffee.pdb
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Antlr3.Runtime.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\EntityFramework.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\EntityFramework.SqlServer.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AI.Web.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.ApplicationInsights.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Newtonsoft.Json.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Owin.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.Helpers.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.Mvc.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.Optimization.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.Razor.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.Deployment.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.Razor.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\WebGrease.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AI.Web.xml
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.ApplicationInsights.xml
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.Helpers.xml
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.Mvc.xml
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.Optimization.xml
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.Razor.xml
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.xml
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.Deployment.xml
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.Razor.xml
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Antlr3.Runtime.pdb
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Newtonsoft.Json.xml
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\EntityFramework.xml
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\EntityFramework.SqlServer.xml
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.xml
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.xml
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\obj\Debug\Hamscoffee.csprojResolveAssemblyReference.cache
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\obj\Debug\Hamscoffee.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\obj\Debug\Hamscoffee.pdb
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\ApplicationInsights.config
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\csc.exe
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\vbc.exe
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\VBCSCompiler.exe
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Hamscoffee.dll.config
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Hamscoffee.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Hamscoffee.pdb
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Antlr3.Runtime.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\EntityFramework.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\EntityFramework.SqlServer.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AI.Web.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Newtonsoft.Json.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Owin.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.Helpers.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.Mvc.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.Optimization.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.Razor.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.Razor.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\WebGrease.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AI.Web.xml
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.Helpers.xml
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.Mvc.xml
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.Optimization.xml
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.Razor.xml
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.xml
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.Razor.xml
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Antlr3.Runtime.pdb
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Newtonsoft.Json.xml
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\EntityFramework.xml
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\EntityFramework.SqlServer.xml
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.xml
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.xml
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\obj\Debug\Hamscoffee.csprojResolveAssemblyReference.cache
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\obj\Debug\Hamscoffee.dll
+C:\Users\Hao\Downloads\DoAnWeb\Hamscoffee\Hamscoffee\obj\Debug\Hamscoffee.pdb
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\ApplicationInsights.config
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\roslyn\csc.exe
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\roslyn\vbc.exe
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\roslyn\VBCSCompiler.exe
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Hamscoffee.dll.config
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Hamscoffee.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Hamscoffee.pdb
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Antlr3.Runtime.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\EntityFramework.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\EntityFramework.SqlServer.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.AI.Web.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.ApplicationInsights.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Newtonsoft.Json.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Owin.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\System.Web.Helpers.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\System.Web.Mvc.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\System.Web.Optimization.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\System.Web.Razor.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.Deployment.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.Razor.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\WebGrease.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.AI.Web.xml
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.ApplicationInsights.xml
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\System.Web.Helpers.xml
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\System.Web.Mvc.xml
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\System.Web.Optimization.xml
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\System.Web.Razor.xml
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.xml
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.Deployment.xml
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.Razor.xml
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Antlr3.Runtime.pdb
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Newtonsoft.Json.xml
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\EntityFramework.xml
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\EntityFramework.SqlServer.xml
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.xml
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.xml
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\obj\Debug\Hamscoffee.csprojResolveAssemblyReference.cache
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\obj\Debug\Hamscoffee.dll
+C:\Users\manel\Desktop\Hamscoffee\Hamscoffee\obj\Debug\Hamscoffee.pdb
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\ApplicationInsights.config
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\csc.exe
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\vbc.exe
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\VBCSCompiler.exe
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Hamscoffee.dll.config
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Hamscoffee.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Hamscoffee.pdb
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Antlr3.Runtime.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\EntityFramework.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\EntityFramework.SqlServer.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AI.Web.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Newtonsoft.Json.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Owin.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.Helpers.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.Mvc.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.Optimization.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.Razor.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.Razor.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\WebGrease.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AI.Web.xml
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.Helpers.xml
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.Mvc.xml
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.Optimization.xml
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.Razor.xml
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.xml
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.Razor.xml
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Antlr3.Runtime.pdb
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Newtonsoft.Json.xml
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\EntityFramework.xml
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\EntityFramework.SqlServer.xml
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.xml
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.xml
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\obj\Debug\Hamscoffee.csprojResolveAssemblyReference.cache
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\obj\Debug\Hamscoffee.dll
+C:\Users\Hao\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\obj\Debug\Hamscoffee.pdb
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\ApplicationInsights.config
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\csc.exe
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\System.Collections.Immutable.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\System.Reflection.Metadata.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\vbc.exe
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\VBCSCompiler.exe
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\roslyn\VBCSCompiler.exe.config
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Hamscoffee.dll.config
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Hamscoffee.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Hamscoffee.pdb
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Antlr3.Runtime.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\EntityFramework.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\EntityFramework.SqlServer.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AI.Agent.Intercept.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AI.DependencyCollector.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AI.Web.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AI.WindowsServer.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.ApplicationInsights.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.Core.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Cookies.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Facebook.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Google.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.OAuth.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Twitter.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Web.Infrastructure.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Newtonsoft.Json.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Owin.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.Helpers.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.Mvc.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.Optimization.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.Razor.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.Deployment.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.Razor.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\WebGrease.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AI.DependencyCollector.xml
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AI.Web.xml
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AI.WindowsServer.xml
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.ApplicationInsights.xml
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.Helpers.xml
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.Mvc.xml
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.Optimization.xml
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.Razor.xml
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.xml
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.Deployment.xml
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.Razor.xml
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Antlr3.Runtime.pdb
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Newtonsoft.Json.xml
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\EntityFramework.xml
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\EntityFramework.SqlServer.xml
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.Core.xml
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.xml
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.xml
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Facebook.xml
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Cookies.xml
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.OAuth.xml
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Google.xml
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Twitter.xml
+E:\DoAnWeb\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\DoAnWeb\Hamscoffee\Hamscoffee\obj\Debug\Hamscoffee.csprojResolveAssemblyReference.cache
+E:\DoAnWeb\Hamscoffee\Hamscoffee\obj\Debug\Hamscoffee.dll
+E:\DoAnWeb\Hamscoffee\Hamscoffee\obj\Debug\Hamscoffee.pdb
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\PagedList.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\PagedList.Mvc.dll
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\PagedList.xml
+C:\Users\manel\Desktop\DoAnWeb\Hamscoffee\Hamscoffee\bin\PagedList.Mvc.xml
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\ApplicationInsights.config
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\roslyn\csc.exe
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\roslyn\vbc.exe
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\roslyn\VBCSCompiler.exe
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Hamscoffee.dll.config
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Hamscoffee.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Hamscoffee.pdb
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Antlr3.Runtime.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\EntityFramework.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\EntityFramework.SqlServer.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Microsoft.AI.Web.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Newtonsoft.Json.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Owin.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\PagedList.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\PagedList.Mvc.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\System.Web.Helpers.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\System.Web.Mvc.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\System.Web.Optimization.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\System.Web.Razor.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.Razor.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\WebGrease.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Microsoft.AI.Web.xml
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\PagedList.xml
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\PagedList.Mvc.xml
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\System.Web.Helpers.xml
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\System.Web.Mvc.xml
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\System.Web.Optimization.xml
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\System.Web.Razor.xml
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.xml
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.Razor.xml
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Antlr3.Runtime.pdb
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Newtonsoft.Json.xml
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\EntityFramework.xml
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\EntityFramework.SqlServer.xml
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.xml
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.xml
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\obj\Debug\Hamscoffee.csprojResolveAssemblyReference.cache
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\obj\Debug\Hamscoffee.dll
+C:\Users\Hao\Downloads\Hamscoffee\Hamscoffee\obj\Debug\Hamscoffee.pdb
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\PagedList.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\PagedList.Mvc.dll
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\PagedList.xml
+C:\Users\Hao\Desktop\Hamscoffee\Hamscoffee\bin\PagedList.Mvc.xml
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\ApplicationInsights.config
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\roslyn\csc.exe
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\roslyn\csc.exe.config
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\roslyn\csc.rsp
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\roslyn\csi.exe
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\roslyn\csi.rsp
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\roslyn\System.AppContext.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\roslyn\vbc.exe
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\roslyn\vbc.exe.config
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\roslyn\vbc.rsp
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\roslyn\VBCSCompiler.exe
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Hamscoffee.dll.config
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Hamscoffee.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Hamscoffee.pdb
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Antlr3.Runtime.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\EntityFramework.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\EntityFramework.SqlServer.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Microsoft.AI.Web.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Microsoft.ApplicationInsights.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Newtonsoft.Json.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Owin.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\PagedList.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\PagedList.Mvc.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\System.Web.Helpers.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\System.Web.Mvc.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\System.Web.Optimization.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\System.Web.Razor.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.Deployment.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.Razor.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\WebGrease.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Microsoft.AI.Web.xml
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Microsoft.ApplicationInsights.xml
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\PagedList.xml
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\PagedList.Mvc.xml
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\System.Web.Helpers.xml
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\System.Web.Mvc.xml
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\System.Web.Optimization.xml
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\System.Web.Razor.xml
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.xml
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.Deployment.xml
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\System.Web.WebPages.Razor.xml
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Antlr3.Runtime.pdb
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Newtonsoft.Json.xml
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\EntityFramework.xml
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\EntityFramework.SqlServer.xml
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.xml
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.xml
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\obj\Debug\Hamscoffee.dll
+C:\Users\manel\Desktop\new\Hamscoffee\Hamscoffee\obj\Debug\Hamscoffee.pdb

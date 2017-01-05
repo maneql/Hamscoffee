@@ -1,0 +1,278 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <meta charset="utf-8">
+    <meta lang="vi"/>
+    <meta name="keywords" content="chuot,hamster,coffee,co,hs,rat,mouse" />
+    <meta name="description" content="Nơi cung cấp hamster và coffee si và lẻ trên toàn quốc">
+    <meta name="author" content="">
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet">
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet">
+    <link href="~/Content/prettyPhoto.css" rel="stylesheet">
+    <link href="~/Content/price-range.css" rel="stylesheet">
+    <link href="~/Content/animate.css" rel="stylesheet">
+    <link href="~/Content/main.css" rel="stylesheet">
+    <link href="~/Content/responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <!--[if lt IE 9]>
+    <script src="~/Scripts/html5shiv.js"></script>
+    <script src="~/Scripts/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="~/images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="~/images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="~/images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="~/images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="~/images/ico/apple-touch-icon-57-precomposed.png">
+    <style>
+        #map
+        {
+            height:300px;
+            width:100%;
+        }
+    </style>
+
+
+
+<script type="text/javascript">
+function hide_float_right() {
+    var content = document.getElementById('float_content_right');
+    var hide = document.getElementById('hide_float_right');
+    if (content.style.display == "none")
+    {content.style.display = "block"; hide.innerHTML = '<a href="javascript:hide_float_right()">[X]</a>'; }
+    else { content.style.display = "none"; hide.innerHTML = '<div id="maxo_container"><div id="maxo_iframe_container"><div id="maxo_minimize" onclick="return td_inst.showWidget()"> <div style="display: block;" class="col-md-12 status-icon"><a href="javascript:hide_float_right()"><b><span class="glyphicon glyphicon-question-sign"></span>  HỖ TRỢ TRỰC TUYẾN</b></a></div></div></div>'; }
+}
+(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.5";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+ </script>
+
+
+
+   
+</head>
+<body style="background-image:url(/images/body-bg.png);">
+    <div id="fb-root"></div>
+    <header id="header">
+        <!--header-->
+        <div class="header_top">
+            <!--header_top-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="contactinfo">
+                            <ul class="nav nav-pills">
+                                <li><a href="#"><i class="fa fa-phone"></i> 0126 572 1268</a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i> Hamscoffee@gmail.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="social-icons pull-right">
+                            <ul class="nav navbar-nav">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--/header_top-->
+        <div class="container" style="padding: 0px;">
+            <div class="header-bottom">
+                <!--header-bottom-->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-9">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div class="mainmenu pull-left">
+                                <ul class="nav navbar-nav collapse navbar-collapse">
+                                    <li><a href="@Url.Action("Homepage", "Homepage")" class="active">Home</a></li>
+                                    <li>@Html.ActionLink("Product", "StoreProduct", "Store", new { id = Session["id"] }, null)</li>
+                                    @{ Html.RenderAction("Cart", "Homepage");}                               
+                                    @if (Session["Taikhoan"] == null)
+                                    {
+                                        <li>@Html.ActionLink("Login", "LoginSignup", "LoginSignup")</li>
+                                    }
+                                    else
+                                    {
+                                        <li>@Html.ActionLink(""+Session["Taikhoan"],null)</li>
+                                        <li>@Html.ActionLink("Đăng xuất","Dangxuat", "LoginSignup")</li>
+                                    }
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="search_box pull-right">
+                                <input type="text" placeholder="Search" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--/header-bottom-->
+        </div>
+    </header><!--/header-->
+   
+            <div>
+                @RenderBody()
+            </div>
+    
+        @*chat fb*@
+        <div class="float-ck" style="right: 50px; bottom: 0; position: fixed; z-index: 999; background-color:orange;">
+            <div id="hide_float_right">
+                <a href="javascript:hide_float_right()">[X]</a>
+            </div>
+            <div id="float_content_right">
+                <div id="fb-root"></div>
+                <div class="fb-page" data-tabs="messages"
+                     data-href="https://www.facebook.com/hamscofeepage/" data-width="300" data-height="300"
+                     data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false">
+                </div>
+            </div>
+        </div>
+    
+    <div class="container" style="padding: 0px;">
+        <div id="map"></div>
+        <footer id="footer">
+            <!--Footer-->
+            <div class="footer-widget">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <div class="single-widget">
+                                <h2>Service</h2>
+                                <ul class="nav nav-pills nav-stacked">
+                                    <li><a href="#">Online Help</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="#">Order Status</a></li>
+                                    <li><a href="#">Change Location</a></li>
+                                    <li><a href="#">FAQ’s</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="single-widget">
+                                <h2>Quock Shop</h2>
+                                <ul class="nav nav-pills nav-stacked">
+                                    <li><a href="#">T-Shirt</a></li>
+                                    <li><a href="#">Mens</a></li>
+                                    <li><a href="#">Womens</a></li>
+                                    <li><a href="#">Gift Cards</a></li>
+                                    <li><a href="#">Shoes</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="single-widget">
+                                <h2>Policies</h2>
+                                <ul class="nav nav-pills nav-stacked">
+                                    <li><a href="#">Terms of Use</a></li>
+                                    <li><a href="#">Privecy Policy</a></li>
+                                    <li><a href="#">Refund Policy</a></li>
+                                    <li><a href="#">Billing System</a></li>
+                                    <li><a href="#">Ticket System</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="single-widget">
+                                <h2>About Shopper</h2>
+                                <ul class="nav nav-pills nav-stacked">
+                                    <li><a href="#">Company Information</a></li>
+                                    <li><a href="#">Careers</a></li>
+                                    <li><a href="#">Store Location</a></li>
+                                    <li><a href="#">Affillate Program</a></li>
+                                    <li><a href="#">Copyright</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="single-widget">
+                                <h2>About Shopper</h2>
+                                <form action="#" class="searchform">
+                                    <p>Get the most recent updates from <br />our site and be updated your self...</p>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+           
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <p class="pull-left">Copyright © 2016 HAMSCOFFEE</p>
+                        <p class="pull-right">Designed by <span><a target="_blank" href="https://www.facebook.com/hamscofeepage/">Lê Phương Nam</a></span></p>
+                    </div>
+                </div>
+            </div>
+       
+        </footer><!--/Footer-->
+        
+        
+    </div>
+    <script src="~/Scripts/jquery.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery.scrollUp.min.js"></script>
+    <script src="~/Scripts/price-range.js"></script>
+    <script src="~/Scripts/jquery.prettyPhoto.js"></script>
+    <script src="~/Scripts/main.js"></script>
+    <script>
+        function initMap() {
+            var latlng = new google.maps.LatLng(10.802296, 106.714953);
+            //Tọa độ cửa hàng
+            var map = new google.maps.Map(document.getElementById('map'), {
+                center: latlng,
+                zoom: 16 //Độ phóng to của bản đồ
+            });
+            var marker = new google.maps.Marker({
+                position: latlng,
+                map: map,
+                title: "Your Title" //Tên hiển thị khi đưa chuột vào địa điểm
+            });
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDvzjlas7en9toW-6M6Pn5C36qO9E2JQ0E&callback=initMap"
+            async defer>
+
+    </script>
+    <script>
+    window.fbAsyncInit = function () {
+        FB.init({
+            appId: '1477684962247374',
+            xfbml: true,
+            version: 'v2.8'
+        });
+    };
+
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) { return; }
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    
+</body>
+
+</html>
+<noembed>

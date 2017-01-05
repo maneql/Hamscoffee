@@ -1,0 +1,356 @@
+﻿
+@helper Truncate(string input) 
+{ 
+    if (input.Length < 50)
+    {
+        @input
+    }
+    else
+    {
+        @input.Substring(0,50)<text>...</text>
+    }
+}
+
+@{
+    ViewBag.Title = "ListProduct";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div id="page-wrapper">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">Quản lý dữ liệu</h1>
+        </div>
+        <!-- /.col-lg-12 -->
+    </div>
+    <!-- /.row -->
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    DANH SÁCH SẢN PHẨM                   
+                </div>
+
+                <!-- /.panel-heading -->
+                <div class="panel-body">
+                    
+                    <table width="100%" class="table table-striped table-bordered table-hover" id="dataTables-example">
+                        
+                        <thead>
+                            
+                            <tr>
+                                <th>Mã sản phẩm</th>
+                                <th>Tên sản phẩm</th>
+                                <th>Đơn vị</th>
+                                <th>Nhà cung cấp</th>
+                                <th>Loại</th>
+                                <th>Giá bán lẻ</th>
+                                <th>Giá bán sỉ</th>
+                                <th>Số lượng tồn</th>
+                                <th>Mô tả</th>
+                                <th>Hình</th>
+                                <th>Task</th>
+                            </tr>
+                        </thead>
+                        
+                        <tbody>
+                            
+                            @foreach (var p in @ViewBag.product)
+                            {
+                                <tr>
+                                    <td>@p.Product_ID</td>
+                                    <td>@p.Product_Name</td>
+                                    <td>@p.NameUnit</td>
+                                    <td class="center">@p.Provider_Name</td>
+                                    <td class="center">@p.Catagory_Name</td>
+                                    <td>@p.Cost</td>
+                                    <td>@p.Wholesale</td>
+                                    <td>@p.Quantity</td>
+                                    <td class="center">@Truncate(p.Description)</td>
+                                    <td><img src="@p.URL"></td>
+                                    <td><a href="@Url.Action("Update","DataEdit",new { id = @p.Product_ID },null)">Sửa</a> | <a href="@Url.Action("DeleteProduct","DataEdit",new { id = @p.Product_ID },null)">Xóa</a></td>
+                                </tr>
+                            }                          
+                        </tbody>
+                    </table>
+
+                    <!-- /.table-responsive -->                    
+                </div>
+                <!-- /.panel-body -->
+            </div>
+            <!-- /.panel -->
+        </div>
+        <!-- /.col-lg-12 -->
+    </div>
+    <!-- /.row -->
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    Phân loại
+                </div>
+                <!-- /.panel-heading -->
+                <div class="panel-body">
+                    <div class="table-responsive">
+                        <table class="table table-striped table-bordered table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Mã loại</th>
+                                    <th>Tên Loại</th>
+                                    <th>Taks</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach(var ca in @ViewBag.catagory)
+                                {
+                                <tr>
+                                    <td>@ca.Catagory_ID</td>
+                                    <td>@ca.Catagory_Name</td>                                    
+                                    <td><a href="#">Sửa</a>|<a href="#">Xóa</a></td>
+                                </tr>
+                                }                                                         
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.table-responsive -->
+                </div>
+                <!-- /.panel-body -->
+            </div>
+            <!-- /.panel -->
+        </div>
+        <!-- /.col-lg-6 -->
+        <div class="col-lg-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    Đơn vị
+                </div>
+                <!-- /.panel-heading -->
+                <div class="panel-body">
+                    <div class="table-responsive table-bordered">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Mã đơn vị</th>
+                                    <th>Tên đơn vị</th>
+                                    <th>Task</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var u in @ViewBag.unit)
+                                {
+                                    <tr>
+                                        <td>@u.Unit_ID</td>
+                                        <td>@u.NameUnit</td>
+                                        <td><a href="#">Sửa</a>|<a href="#">Xóa</a></td>
+                                    </tr>
+                                }
+
+
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.table-responsive -->
+                </div>
+                <!-- /.panel-body -->
+            </div>
+            <!-- /.panel -->
+        </div>
+        
+        <!-- /.col-lg-6 -->
+    </div>
+    <!-- /.row -->
+    <div class="row">      
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    Slider
+                </div>
+                <!-- /.panel-heading -->
+                <div class="panel-body">
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Hình</th>
+                                    <th>URL</th>
+                                    <th>Link_page</th>
+                                    <th>Tiêu đề</th>
+                                    <th>Mô tả</th>
+                                    <th>Task</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach(var sl in @ViewBag.slider)
+                                {
+                                    <tr>
+                                        <td>@sl.Image_Name</td>
+                                        <td>@sl.URL</td>
+                                        <td>@sl.Link_page</td>
+                                        <td>@sl.Title</td>
+                                        <td>@sl.Description</td>
+                                        <td><a href="#">Sửa</a>|<a href="#">Xóa</a></td>
+                                    </tr>
+                                }  
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.table-responsive -->
+                </div>
+                <!-- /.panel-body -->
+            </div>
+            <!-- /.panel -->        
+    </div>
+    <div class="row">      
+        
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    Nhà cung cấp
+                </div>
+                <!-- /.panel-heading -->
+                <div class="panel-body">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Mã NCC</th>
+                                    <th>Tên NCC</th>
+                                    <th>Địa chỉ</th>
+                                    <th>Số điên thoại</th>
+                                    <th>Email</th>
+                                    <th>Task</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach(var pr in @ViewBag.provider)
+                                {
+                                    <tr>
+                                        <td>@pr.Provider_ID</td>
+                                        <td>@pr.Provider_Name</td>
+                                        <td>@pr.Address</td>
+                                        <td>@pr.Phone</td>
+                                        <td>@pr.Email</td>
+                                        <td><a href="#">Sửa</a>|<a href="#">Xóa</a></td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.table-responsive -->
+                </div>
+                <!-- /.panel-body -->
+            </div>
+            <!-- /.panel -->
+        
+    </div>
+    <!-- /.row -->
+    @*<div class="row">
+        <div class="col-lg-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    Hover Rows
+                </div>
+                <!-- /.panel-heading -->
+                <div class="panel-body">
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>First Name</th>
+                                    <th>Last Name</th>
+                                    <th>Username</th>
+                                    <th>Task</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>mdo</td>
+                                    <td><a href="#">Sửa</a>|<a href="#">Xóa</a></td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Jacob</td>
+                                    <td>Thornton</td>
+                                    <td>fat</td>
+                                    <td><a href="#">Sửa</a>|<a href="#">Xóa</a></td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Larry</td>
+                                    <td>the Bird</td>
+                                    <td>twitter</td>
+                                    <td><a href="#">Sửa</a>|<a href="#">Xóa</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.table-responsive -->
+                </div>
+                <!-- /.panel-body -->
+            </div>
+            <!-- /.panel -->
+        </div>
+        <!-- /.col-lg-6 -->
+        <div class="col-lg-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    Context Classes
+                </div>
+                <!-- /.panel-heading -->
+                <div class="panel-body">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>First Name</th>
+                                    <th>Last Name</th>
+                                    <th>Username</th>
+                                    <th>Task</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="success">
+                                    <td>1</td>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>mdo</td>
+                                    <td><a href="#">Sửa</a>|<a href="#">Xóa</a></td>
+                                </tr>
+                                <tr class="info">
+                                    <td>2</td>
+                                    <td>Jacob</td>
+                                    <td>Thornton</td>
+                                    <td>fat</td>
+                                    <td><a href="#">Sửa</a>|<a href="#">Xóa</a></td>
+                                </tr>
+                                <tr class="warning">
+                                    <td>3</td>
+                                    <td>Larry</td>
+                                    <td>the Bird</td>
+                                    <td>twitter</td>
+                                    <td><a href="#">Sửa</a>|<a href="#">Xóa</a></td>
+                                </tr>
+                                <tr class="danger">
+                                    <td>4</td>
+                                    <td>John</td>
+                                    <td>Smith</td>
+                                    <td>jsmith</td>
+                                    <td><a href="#">Sửa</a>|<a href="#">Xóa</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.table-responsive -->
+                </div>
+                <!-- /.panel-body -->
+            </div>
+            <!-- /.panel -->
+        </div>
+        <!-- /.col-lg-6 -->
+    </div>*@
+    <!-- /.row -->
+</div>
+

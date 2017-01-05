@@ -1,0 +1,68 @@
+﻿
+@{
+    ViewBag.Title = "Homepage";
+    Layout = "~/Views/Shared/_Layouthome.cshtml";
+}
+
+<section id="slider">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <div class="col-lg-4 col-sm-4 text-center">
+                        <a href="@Url.Action("Index", "ProductIndex",new { id=5},null)">
+                            <img class="img-circle img-responsive img-center" src="~/img/coffee.png" alt="">
+                        </a>
+                        <div style="margin: 20px" class="block">
+                            <ul>@Html.ActionLink("Coffee", "Index", "ProductIndex",new { id = 5 }, null)</ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-4 text-center">
+                        <a href="https://www.facebook.com/hamscofeepage/">
+                            <img class="img-circle img-responsive img-center" src="~/img/hamscoffee.png" alt="">
+                        </a>
+
+                        <div style="margin: 20px" class="block">
+                            <ul><a target="_blank" href="https://www.facebook.com/hamscofeepage/">HamsCoffee</a></ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-4 text-center">
+                        <a href="@Url.Action("Index", "ProductIndex",new { id=0},null)">
+                            <img class="img-circle img-responsive img-center" src="~/img/hamster.png" alt="">
+                        </a>
+                        
+                        <div style="margin: 20px" class="block">
+                            <ul>@Html.ActionLink("Hamster", "Index", "ProductIndex", new { id = 0 }, null)</ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Wrapper Start -->
+<section id="intro">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 col-sm-12">
+                <div class="block">
+                    <div class="section-title">
+                        <h2 style="color: #FFFACD;">About Us</h2>
+                        <p style="color: #FFFACD;">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+                    </div>
+                    <p style="color: #FFFACD;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id </p>
+                </div>
+            </div><!-- .col-md-7 close -->
+            <div class="col-md-5 col-sm-12">
+                <div class="block">
+                    @*<img src="~/img/wrapper-img.gif" alt="Img">*@
+                    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1MJIT0H63pdtmxTb-SlXzdTg6vXI" width="100%" height="390"></iframe>
+                </div>
+            </div><!-- .col-md-5 close -->
+        </div>
+    </div>
+</section>
+
+@*<div id="map"></div>*@
+    
+
