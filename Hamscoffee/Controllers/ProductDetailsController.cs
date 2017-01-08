@@ -29,7 +29,6 @@ namespace Hamscoffee.Controllers
             public string provider_name;
         };
 
-        // GET: Product
         public ActionResult ProductDetails(string id)
         {
             List<product> listtb = new List<product>();            
