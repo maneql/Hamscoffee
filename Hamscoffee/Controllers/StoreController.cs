@@ -36,16 +36,7 @@ namespace Hamscoffee.Controllers
                 Session["id"] = "0";
             }
             List<datatable> listtb = new List<datatable>();
-            //var result = data.Products.Join(data.Image_stores, p => p.Product_ID, i => i.Product_ID, (p, i) => new {p.Product_ID, p.Product_Name, p.Cost, i.URL}) ;
-            //foreach(var item in result)
-            //{
-            //    datatable tb = new datatable();
-            //    tb.cost = item.Cost.ToString();
-            //    tb.product_name = item.Product_Name.ToString();
-            //    tb.url = item.URL.ToString();
-            //    tb.product_id = item.Product_ID.ToString();
-            //    listtb.Add(tb);
-            //}
+            
             var result = (dynamic)null;
 
             if (id != "0")
