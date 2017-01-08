@@ -20,9 +20,9 @@ namespace Hamscoffee.Controllers
             public string url;
             public string product_id;
         };
+
         public ActionResult StoreProduct(string id,string pid, int? page)
         {
-            //Tao bien quy dinh so san pham tren moi trang
             int pageSize = 6;
             //Tao bien so trang
             int pageNum = (page ?? 1);
