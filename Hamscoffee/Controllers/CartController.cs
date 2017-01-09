@@ -8,6 +8,8 @@ using System.Security.Cryptography;
 using System.Text;
 using WebApplication2;
 
+//Code Page Cart
+
 
 
 namespace Hamscoffee.Controllers
@@ -16,7 +18,6 @@ namespace Hamscoffee.Controllers
     {
         HamscoffeeDBDataContext data = new HamscoffeeDBDataContext();
         
-        //Xay dung trang Gio hang
         public ActionResult Cart()
         {
             List<cart> lstCart = GetCart();

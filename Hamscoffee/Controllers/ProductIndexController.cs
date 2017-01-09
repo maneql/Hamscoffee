@@ -68,7 +68,7 @@ namespace Hamscoffee.Controllers
                 }               
             }
             ViewBag.prod = listtb;
-            //Lay catagory 
+            
             ViewBag.catagory = data.Catagories;
 
             ViewBag.provider = data.Providers;

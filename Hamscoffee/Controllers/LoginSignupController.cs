@@ -13,7 +13,6 @@ namespace Hamscoffee.Controllers
     {
 
         HamscoffeeDBDataContext data = new HamscoffeeDBDataContext();
-        // GET: LoginSignup
         
         public ActionResult LoginSignup()
         {
